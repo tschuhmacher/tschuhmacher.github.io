@@ -6,7 +6,7 @@ categories: awesome webgl
 ---
 ### Test Fragment Shader in Jekyll
 
-And working and done! :+1:
+And working and done!
 
 <canvas id="renderMe"  style="border: 1px solid grey;" width="640" height="480"></canvas>
 
