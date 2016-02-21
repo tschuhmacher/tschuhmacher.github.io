@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Syntax"
+date:   2016-02-21 16:23:51 +0100
+categories: code webgl snippets
+---
+So here's the basic syntax in html:
+
+{% highlight html %}
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+{% endhighlight %}
+
+
+And the rest goes in javascript:
+
+{% highlight javascript %}
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.arc(95,50,40,0,2*Math.PI);
+ctx.stroke();
+{% endhighlight %}
+
+
+Check out the [W3Schools docs][w3-docs] for more info on how to get the most out of \<canvas\>. And see the example [canvas-example][canvas-example]
+
+[w3-docs]: http://www.w3schools.com/html/html5_canvas.asp
+[canvas-example]: http://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_path2
