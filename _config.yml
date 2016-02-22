@@ -21,6 +21,7 @@ timezone: Europe/Berlin
 
 # Build settings
 markdown: kramdown
+exclude: ["vendor"]
 
 # Markdown Processors
 kramdown:
